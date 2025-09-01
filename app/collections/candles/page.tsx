@@ -7,6 +7,7 @@ import { Star, Filter, Grid, List } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
 
 const candles = [
   {
@@ -212,6 +213,8 @@ export default function CandlesCollection() {
           </div>
         </div>
       </section>
+      
+      <Footer />
     </div>
   );
 }

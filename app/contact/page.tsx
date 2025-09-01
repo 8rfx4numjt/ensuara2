@@ -7,6 +7,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent } from '@/components/ui/card';
 import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
 
 const contactInfo = [
   {
@@ -188,6 +189,8 @@ export default function Contact() {
           </div>
         </div>
       </section>
+      
+      <Footer />
     </div>
   );
 }

@@ -5,6 +5,7 @@ import FeaturedProducts from '@/components/home/FeaturedProducts';
 import VideoReel from '@/components/home/VideoReel';
 import Testimonials from '@/components/home/Testimonials';
 import About from '@/components/home/About';
+import Footer from '@/components/layout/Footer';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <VideoReel />
       <About />
       <Testimonials />
+      <Footer />
     </main>
   );
 }
