@@ -87,7 +87,7 @@ export default function FeaturedProducts() {
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
                 />
                 {product.badge && (
-                  <div className="absolute top-3 left-3 bg-purple-600 text-white text-xs font-medium px-2 py-1 rounded-full">
+                  <div className="absolute top-3 left-3 bg-pink-500 text-white text-xs font-medium px-2 py-1 rounded-full">
                     {product.badge}
                   </div>
                 )}
@@ -123,7 +123,7 @@ export default function FeaturedProducts() {
                 </div>
 
                 <Link href={`/products/${product.id}`}>
-                  <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white rounded-full py-2 transition-all duration-300 transform group-hover:scale-105">
+                  <Button className="w-full bg-pink-500 hover:bg-pink-600 text-white rounded-full py-2 transition-all duration-300 transform group-hover:scale-105">
                     Add to Cart
                   </Button>
                 </Link>
@@ -143,7 +143,7 @@ export default function FeaturedProducts() {
             <Button
               variant="outline"
               size="lg"
-              className="border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white px-8 py-3 rounded-full transition-all duration-300"
+              className="border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white px-8 py-3 rounded-full transition-all duration-300"
             >
               View All Products
             </Button>

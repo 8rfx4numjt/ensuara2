@@ -81,7 +81,7 @@ export default function Footer() {
               viewport={{ once: true }}
             >
               <Link href="/" className="inline-block mb-4">
-                <h2 className="text-3xl font-bold text-purple-400">Ensaura</h2>
+                <h2 className="text-3xl font-display font-bold text-pink-400">Ensaura</h2>
               </Link>
               <p className="text-gray-300 mb-6 leading-relaxed">
                 Creating moments of peace and mindfulness through thoughtfully crafted products. 
@@ -90,15 +90,15 @@ export default function Footer() {
               
               <div className="space-y-3">
                 <div className="flex items-center text-gray-300">
-                  <Mail className="h-4 w-4 mr-3 text-purple-400" />
+                  <Mail className="h-4 w-4 mr-3 text-pink-400" />
                   <span>hello@ensaura.com</span>
                 </div>
                 <div className="flex items-center text-gray-300">
-                  <Phone className="h-4 w-4 mr-3 text-purple-400" />
+                  <Phone className="h-4 w-4 mr-3 text-pink-400" />
                   <span>+1 (555) 123-4567</span>
                 </div>
                 <div className="flex items-center text-gray-300">
-                  <MapPin className="h-4 w-4 mr-3 text-purple-400" />
+                  <MapPin className="h-4 w-4 mr-3 text-pink-400" />
                   <span>123 Wellness Way, Mindful City</span>
                 </div>
               </div>
@@ -118,7 +118,7 @@ export default function Footer() {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-gray-300 hover:text-purple-400 transition-colors"
+                    className="text-gray-300 hover:text-pink-400 transition-colors"
                   >
                     {link.name}
                   </Link>
@@ -140,7 +140,7 @@ export default function Footer() {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-gray-300 hover:text-purple-400 transition-colors"
+                    className="text-gray-300 hover:text-pink-400 transition-colors"
                   >
                     {link.name}
                   </Link>
@@ -162,7 +162,7 @@ export default function Footer() {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-gray-300 hover:text-purple-400 transition-colors"
+                    className="text-gray-300 hover:text-pink-400 transition-colors"
                   >
                     {link.name}
                   </Link>
@@ -184,7 +184,7 @@ export default function Footer() {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-gray-300 hover:text-purple-400 transition-colors"
+                    className="text-gray-300 hover:text-pink-400 transition-colors"
                   >
                     {link.name}
                   </Link>
@@ -222,7 +222,7 @@ export default function Footer() {
                 <Link
                   key={social.name}
                   href={social.href}
-                  className="p-2 rounded-full bg-gray-800 hover:bg-purple-600 text-gray-300 hover:text-white transition-all duration-300 transform hover:scale-110"
+                  className="p-2 rounded-full bg-gray-800 hover:bg-pink-500 text-gray-300 hover:text-white transition-all duration-300 transform hover:scale-110"
                   aria-label={social.name}
                 >
                   {social.icon}

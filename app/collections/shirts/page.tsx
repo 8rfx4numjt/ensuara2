@@ -61,7 +61,7 @@ export default function ShirtsCollection() {
       <Header />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gradient-to-r from-purple-600 to-pink-600">
+      <section className="pt-24 pb-16 bg-gradient-to-r from-pink-500 to-pink-400">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             className="text-center"
@@ -69,7 +69,7 @@ export default function ShirtsCollection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
+            <h1 className="text-5xl md:text-6xl font-display font-bold text-white mb-6">
               Mindful Apparel
             </h1>
             <p className="text-xl text-white/90 max-w-2xl mx-auto">
@@ -178,7 +178,7 @@ export default function ShirtsCollection() {
                     ))}
                   </div>
 
-                  <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white rounded-full py-2 transition-all duration-300 transform group-hover:scale-105">
+                  <Button className="w-full bg-pink-500 hover:bg-pink-600 text-white rounded-full py-2 transition-all duration-300 transform group-hover:scale-105">
                     Add to Cart
                   </Button>
                 </div>

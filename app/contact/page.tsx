@@ -42,7 +42,7 @@ export default function Contact() {
       <Header />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gradient-to-r from-purple-600 to-pink-600">
+      <section className="pt-24 pb-16 bg-gradient-to-r from-pink-500 to-pink-400">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             className="text-center"
@@ -50,7 +50,7 @@ export default function Contact() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
+            <h1 className="text-5xl md:text-6xl font-display font-bold text-white mb-6">
               Get in Touch
             </h1>
             <p className="text-xl text-white/90 max-w-2xl mx-auto">
@@ -73,7 +73,7 @@ export default function Contact() {
             >
               <Card className="shadow-lg">
                 <CardContent className="p-8">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">Send us a message</h2>
+                  <h2 className="text-2xl font-display font-bold text-gray-900 mb-6">Send us a message</h2>
                   
                   <form className="space-y-6">
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -117,7 +117,7 @@ export default function Contact() {
 
                     <Button 
                       type="submit" 
-                      className="w-full bg-purple-600 hover:bg-purple-700 text-white py-3 rounded-full transition-all duration-300"
+                      className="w-full bg-pink-500 hover:bg-pink-600 text-white py-3 rounded-full transition-all duration-300"
                     >
                       Send Message
                     </Button>
@@ -135,7 +135,7 @@ export default function Contact() {
             >
               <div className="space-y-8">
                 <div>
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h2>
+                  <h2 className="text-2xl font-display font-bold text-gray-900 mb-6">Contact Information</h2>
                   <p className="text-gray-600 leading-relaxed">
                     We're here to help with any questions about our products, orders, 
                     or wellness journey. Reach out and let's connect!
@@ -152,7 +152,7 @@ export default function Contact() {
                       transition={{ duration: 0.6, delay: index * 0.1 }}
                       viewport={{ once: true }}
                     >
-                      <div className="flex-shrink-0 p-3 bg-purple-100 rounded-full text-purple-600">
+                      <div className="flex-shrink-0 p-3 bg-pink-100 rounded-full text-pink-500">
                         {info.icon}
                       </div>
                       <div>
@@ -174,12 +174,12 @@ export default function Contact() {
 
                 <Card className="bg-purple-50 border-purple-200">
                   <CardContent className="p-6">
-                    <h3 className="font-semibold text-gray-900 mb-2">Customer Support</h3>
+                    <h3 className="font-display font-semibold text-gray-900 mb-2">Customer Support</h3>
                     <p className="text-gray-600 mb-4">
                       Our wellness specialists are available to help you find the perfect 
                       products for your mindfulness journey.
                     </p>
-                    <Button variant="outline" className="border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white">
+                    <Button variant="outline" className="border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white">
                       Start Live Chat
                     </Button>
                   </CardContent>

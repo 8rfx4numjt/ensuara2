@@ -79,7 +79,7 @@ export default function Collections() {
                   
                   <Link href={collection.href}>
                     <Button 
-                      className="bg-white text-gray-900 hover:bg-purple-100 rounded-full px-6 py-2 transition-all duration-300 transform group-hover:scale-105"
+                      className="bg-white text-gray-900 hover:bg-pink-100 rounded-full px-6 py-2 transition-all duration-300 transform group-hover:scale-105"
                     >
                       Explore Collection
                     </Button>
